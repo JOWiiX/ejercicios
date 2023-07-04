@@ -7,7 +7,7 @@ que al ser divididos por un argumento entero n, su resto sea igual a 3.*/
 int main(int argc, char const *argv[]) {
     int n=atoi(argv[1]);
 
-    for (int i = 0; i < 100; i++) {
+    for (size_t i = 0; i < 100; i++) {
         if (i%n==3) {
             printf("%d ", i);
         }
