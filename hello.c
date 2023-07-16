@@ -1,12 +1,11 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 
-int main(int argc, char const *argv[]) {
+int main(int argc, char const *argv[])
+{
+  srand(time(NULL));
 
-    saludo();
-    return 0;
-}
-
-  char saludo() {
-    printf("hola");
-        
+  printf("%d ", rand()%100 +1);
+  return 0;
 }

@@ -5,7 +5,7 @@ puede caminar izq der top bot but not on 1. print hte matrix*/
 
 int main(int argc, char const *argv[]) {
     int arr[15][15] = {0};
-    int w[1][1]= {1};
+    arr[7][7]= 1;
 
     for (size_t i = 0; i < 15; i++) {
         for (size_t j = 0; j < 15; j++) {
@@ -14,13 +14,9 @@ int main(int argc, char const *argv[]) {
         }
         printf("\n");
     }
-        printf("\n");
-    
-    for (size_t i = 0; i < 15; i++) {
-        for (size_t j = 0; j < 15; j++) {
-            printf("%d ", w[7][7]);
-        }
-        printf("\n");
-    }
+
+
+
+    printf("\n");
     return 0;
 }
