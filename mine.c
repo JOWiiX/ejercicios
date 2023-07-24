@@ -38,7 +38,7 @@ int main(int argc, char const *argv[]) {
                 continue;
             }
             for (size_t k = i-1; k <= i+1; k++) {
-                for (size_t l = j-1; l <=t j+1; l++) {
+                for (size_t l = j-1; l <=j+1; l++) {
 
                     if (arr[k][l]==-1) {
                         arr[i][j]++;
